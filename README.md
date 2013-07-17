@@ -20,7 +20,7 @@ I will link to each project that I complete. Some will be in this same repo, som
 Numbers
 ---------
 
-**Find PI to the Nth Digit** – Enter a number and have the program generate PI up to that many decimal places. Keep a limit to how far the program will go.
+[**Find PI to the Nth Digit**](https://github.com/whoshuu/Projects/blob/master/Numbers/pi.py) – Enter a number and have the program generate PI up to that many decimal places. Keep a limit to how far the program will go.
 
 **Fibonacci Sequence** – Enter a number and have the program generate the Fibonacci sequence to that number or to the Nth number.
 
@@ -85,7 +85,7 @@ Text
 
 **CD Key Generator** – Generates a unique key for your applications to use based on some arbitrary algorithm that you can specify. Great for software developers looking to make shareware that can be activated.
 
-**Regex Query Tool** – A tool that allows the user to enter a text string and then in a separate control enter a regex pattern. It will run the regular exp****ression against the source text and return any matches or flag errors in the regular exp****ression.
+**Regex Query Tool** – A tool that allows the user to enter a text string and then in a separate control enter a regex pattern. It will run the regular expression against the source text and return any matches or flag errors in the regular expression.
 
 Networking
 ---------
