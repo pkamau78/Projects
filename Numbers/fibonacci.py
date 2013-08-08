@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-from math import sqrt
 
 
 def fib(n):
