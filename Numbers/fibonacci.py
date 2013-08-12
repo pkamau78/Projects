@@ -7,12 +7,12 @@ def fib(N):
     sequence.
     
     """
-    if N > 1:
+    if N == 1:
+        return [1, 0]
+    else:
         terms = fib(N - 1)
         terms = [terms[0] + terms[1], terms[0]]
         return terms
-    else:
-        return [1, 0]
 
 
 def validate_positive_integer():
