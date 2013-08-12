@@ -24,11 +24,11 @@ def validate_positive_integer():
     while True:
         s = raw_input("Which term in the Fibonacci sequence you want to see? ")
         try:
-            terms = int(s)
-            if terms >= 500:
+            N = int(s)
+            if N >= 500:
                 print "Enter a number smaller than 500."
-            elif terms > 0:
-                return terms
+            elif N > 0:
+                return N
             else:
                 print "Enter a positive integer."
         except ValueError:
