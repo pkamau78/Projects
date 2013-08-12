@@ -1,14 +1,14 @@
 #!/usr/bin/env python
 
 
-def fib(n):
+def fib(N):
     """
     Recursively return the next term and the term before it in the Fibonacci
     sequence.
     
     """
-    if n > 1:
-        terms = fib(n - 1)
+    if N > 1:
+        terms = fib(N - 1)
         terms = [terms[0] + terms[1], terms[0]]
         return terms
     else:
@@ -24,11 +24,11 @@ def validate_positive_integer():
     while True:
         s = raw_input("Which term in the Fibonacci sequence you want to see? ")
         try:
-            digits = int(s)
-            if digits >= 500:
+            terms = int(s)
+            if terms >= 500:
                 print "Enter a number smaller than 500."
-            elif digits > 0:
-                return digits
+            elif terms > 0:
+                return terms
             else:
                 print "Enter a positive integer."
         except ValueError:
@@ -36,8 +36,8 @@ def validate_positive_integer():
 
 
 def main():
-    n = validate_positive_integer()
-    print fib(n)[1]
+    N = validate_positive_integer()
+    print fib(N)[1]
 
 
 if __name__ == "__main__":
