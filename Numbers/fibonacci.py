@@ -3,7 +3,7 @@
 
 def fib(N):
     """
-    Recursively return the next term and the term before it in the Fibonacci
+    Recursively return the next term and the current term in the Fibonacci
     sequence.
     
     """
