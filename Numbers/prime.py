@@ -131,12 +131,12 @@ def validate_positive_integer():
     while True:
         s = raw_input("Whose prime factors do you want to see? ")
         try:
-            N = int(s)
-            if N >= 100000000000000000000000:
+            n = int(s)
+            if n >= 100000000000000000000000:
                 print "Enter an integer smaller than", \
                       "100000000000000000000000 (10^23)." 
-            elif N > 0:
-                return N
+            elif n > 0:
+                return n
             else:
                 print "Enter a positive integer."
         except ValueError:
